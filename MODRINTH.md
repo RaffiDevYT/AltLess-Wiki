@@ -1,6 +1,6 @@
 <div align="center">
 
-![Altless Banner](https://raw.githubusercontent.com/RaffiDevYT/AltLess/main/release/banner.png)
+![Altless Banner](https://raw.githubusercontent.com/RaffiDevYT/AltLess-MinecraftPlugin/main/release/banner.png)
 
 # Altless 🛡️
 ### High-Performance Asynchronous Connection & Multi-Account Limiter
@@ -9,7 +9,7 @@
 ![Platform](https://img.shields.io/badge/Paper%20%7C%20Velocity-2ea44f?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-17+-b07219?style=for-the-badge)
 ![Languages](https://img.shields.io/badge/Languages-English%20%7C%20Indonesian-007ec6?style=for-the-badge)
-[![Wiki](https://img.shields.io/badge/Docs-GitHub%20Wiki-181717?style=for-the-badge&logo=github)](https://github.com/RaffiDevYT/AltLess/wiki)
+[![Wiki](https://img.shields.io/badge/Docs-GitHub%20Wiki-181717?style=for-the-badge&logo=github)](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki)
 
 </div>
 
@@ -106,14 +106,14 @@ history:
 ## 📚 Complete Wiki & Guides
 
 Need in-depth instructions, multi-server setup, or LuckPerms configuration? Check out our official documentation:
-* 📥 [Installation Guide](https://github.com/RaffiDevYT/AltLess/wiki/Installation) — Paper, Purpur, and Velocity setups.
-* ⚙️ [Configuration Guide](https://github.com/RaffiDevYT/AltLess/wiki/Configuration) — Complete key breakdown.
-* ⚔️ [Commands & Permissions](https://github.com/RaffiDevYT/AltLess/wiki/Commands-and-Permissions) — Full command reference.
-* 🌐 [Localization Guide](https://github.com/RaffiDevYT/AltLess/wiki/Localization) — Multi-language & placeholders.
-* ❓ [FAQ & Troubleshooting](https://github.com/RaffiDevYT/AltLess/wiki/FAQ-and-Troubleshooting) — Proxy IP forwarding (`127.0.0.1`) solutions.
+* 📥 [Installation Guide](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Installation) — Paper, Purpur, and Velocity setups.
+* ⚙️ [Configuration Guide](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Configuration) — Complete key breakdown.
+* ⚔️ [Commands & Permissions](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Commands-and-Permissions) — Full command reference.
+* 🌐 [Localization Guide](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Localization) — Multi-language & placeholders.
+* ❓ [FAQ & Troubleshooting](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/FAQ-and-Troubleshooting) — Proxy IP forwarding (`127.0.0.1`) solutions.
 
 ---
 
 ## 🐛 Bug Reports & Feature Requests
 
-Have questions or found an issue? Open a ticket on our official [GitHub Issue Tracker](https://github.com/RaffiDevYT/AltLess/issues).
+Have questions or found an issue? Open a ticket on our official [GitHub Issue Tracker](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/issues).
