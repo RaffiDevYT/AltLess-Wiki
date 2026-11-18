@@ -1,0 +1,32 @@
+# Closed Source - Source Code & Build Files
+altless-core/
+altless-paper/
+altless-velocity/
+gradle/
+gradlew
+gradlew.bat
+build.gradle
+settings.gradle
+.gradle/
+build/
+*/build/
+
+# Binary Releases (Distributed on Modrinth)
+release/*.jar
+
+# IDE & Editor Files
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# OS / Temporary files
+.DS_Store
+Thumbs.db
+*.log
+barrier.png
+deepslate_bricks.png
+stone_bricks.png
+panorama_0.png
+/icon.png
