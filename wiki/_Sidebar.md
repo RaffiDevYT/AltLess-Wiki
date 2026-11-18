@@ -9,4 +9,4 @@
 
 ---
 * 📦 [Modrinth Releases](https://modrinth.com/plugin/altless)
-* 🐛 [Issue Tracker](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/issues)
+* 🐛 [Issue Tracker](https://github.com/RaffiDevYT/AltLess-Wiki/issues)
