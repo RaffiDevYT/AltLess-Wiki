@@ -38,8 +38,8 @@ Altless dynamically calculates a player's allowed connection limit upon login us
 
 1. **Bypass Check:** If the player has `altless.bypass`, they are never restricted.
 2. **Numeric Permission Nodes (`altless.limit.<n>`):**
-   - Altless checks for highest integer value `n` among all assigned permission nodes.
-   - Example: If a VIP player has both `altless.limit.2` and `altless.limit.4`, Altless grants a limit of **4**.
+ - Altless checks for highest integer value `n` among all assigned permission nodes.
+ - Example: If a VIP player has both `altless.limit.2` and `altless.limit.4`, Altless grants a limit of **4**.
 3. **Global Default:** If no numeric permission node is assigned, Altless falls back to `global-limit` from `config.yml`.
 
 ### Example: Setting VIP Limits with LuckPerms
@@ -70,6 +70,6 @@ Example in-game output:
 ```text
 [Altless] Audit report for Notch:
   Tracked IP: 192.168.1.100 (Total connected accounts: 2)
-  - Notch (ONLINE)
-  - Jeb_ (OFFLINE - Last seen: 2 hours ago)
+ - Notch (ONLINE)
+ - Jeb_ (OFFLINE - Last seen: 2 hours ago)
 ```

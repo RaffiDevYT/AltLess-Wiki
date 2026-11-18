@@ -15,17 +15,17 @@
 
 ---
 
-**Altless** is a modern, zero-dependency connection and alt-account limiter engineered for modern **Paper** (1.17–1.21+) servers and **Velocity** (3.1–3.3+) proxies.
+**AltLess** is a modern, zero-dependency connection and alt-account limiter engineered for modern **Paper** (1.17-1.21+) servers and **Velocity** (3.1-3.3+) proxies.
 
-Most legacy IP limiter plugins run synchronous checks on the main server thread, leak memory by caching raw `Player` objects, and fail against bots rotating IPv6 addresses. **Altless solves all of these problems with strictly 0ms overhead on your server tick loop.**
+Most legacy IP limiter plugins run synchronous checks on the main server thread, leak memory by caching raw `Player` objects, and fail against bots rotating IPv6 addresses. **AltLess solves all of these problems with strictly 0ms overhead on your server tick loop.**
 
 ---
 
-## ⚡ Why Choose Altless?
+## ⚡ Why Choose AltLess?
 
-| Feature | Legacy Limiters (v1.x) | Altless 2.0 |
+| Feature | Other Plugins | AltLess |
 |---|---|---|
-| **Supported Platforms** | Spigot 1.12 only | **Paper 1.17–1.21+ & Velocity 3.1–3.3+** |
+| **Supported Platforms** | Outdated / Spigot only | **Paper 1.17-1.21+ & Velocity 3.1-3.3+** |
 | **Main Thread Impact** | Heavy lag on login | **Strictly 0ms (100% Asynchronous)** |
 | **Memory Safety** | Caches `Player` (Memory leaks) | **Lock-Free `ConcurrentHashMap` + UUIDs** |
 | **IPv6 Evasion Defense** | ❌ None | **✅ Automatic `/64` Subnet Aggregation** |
@@ -46,7 +46,7 @@ Most legacy IP limiter plugins run synchronous checks on the main server thread,
 * 🔍 **Staff Alt Investigation:** Built-in `/altless lookup <player|ip>` instantly displays all alternate usernames connected from the target's IP addresses along with connection timestamps.
 * 💎 **Dynamic Limit Hierarchy (LuckPerms):** Grant higher connection limits to VIPs or households via permission nodes (e.g. `altless.limit.3`), with complete bypass via `altless.bypass`.
 * 🚨 **Automated Mitigation Escalation:** Automatically execute console commands (e.g. temporary IP-bans or alerts) when repeat offenders repeatedly breach connection thresholds.
-* 📡 **Zero-Dependency Multi-Server Sync:** Synchronize live IP session counts across multiple Velocity proxies or Paper backends using native socket Redis pub/sub—no heavy third-party JARs required.
+* 📡 **Zero-Dependency Multi-Server Sync:** Synchronize live IP session counts across multiple Velocity proxies or Paper backends using native socket Redis pub/sub - no heavy third-party JARs required.
 
 ---
 
@@ -64,10 +64,10 @@ Base command: `/altless` (Aliases: `/alts`, `/iplimit`)
 | `/altless reload` | `altless.admin` | Hot-reload configuration and language files with zero downtime. |
 
 ### Permission Nodes
-* `altless.admin` — Access all management commands and tab completion.
-* `altless.bypass` — Completely exempts player from connection limits and rate limiting.
-* `altless.notify` — Receives real-time staff broadcast notifications on connection violations.
-* `altless.limit.<n>` — Sets custom allowed connection count (e.g. `altless.limit.3` allows 3 concurrent accounts).
+* `altless.admin` - Access all management commands and tab completion.
+* `altless.bypass` - Completely exempts player from connection limits and rate limiting.
+* `altless.notify` - Receives real-time staff broadcast notifications on connection violations.
+* `altless.limit.<n>` - Sets custom allowed connection count (e.g. `altless.limit.3` allows 3 concurrent accounts).
 
 ---
 
@@ -83,8 +83,8 @@ defaultLimit: 1
 
 # Custom IP or CIDR Subnet Limits
 limits:
-  - "127.0.0.1: 5"
-  - "192.168.1.0/24: 3"
+ - "127.0.0.1: 5"
+ - "192.168.1.0/24: 3"
 
 # Aggregate IPv6 connections to /64 subnet
 aggregateIpv6: true
@@ -106,11 +106,11 @@ history:
 ## 📚 Complete Wiki & Guides
 
 Need in-depth instructions, multi-server setup, or LuckPerms configuration? Check out our official documentation:
-* 📥 [Installation Guide](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Installation) — Paper, Purpur, and Velocity setups.
-* ⚙️ [Configuration Guide](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Configuration) — Complete key breakdown.
-* ⚔️ [Commands & Permissions](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Commands-and-Permissions) — Full command reference.
-* 🌐 [Localization Guide](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Localization) — Multi-language & placeholders.
-* ❓ [FAQ & Troubleshooting](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/FAQ-and-Troubleshooting) — Proxy IP forwarding (`127.0.0.1`) solutions.
+* 📥 [Installation Guide](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Installation) - Paper, Purpur, and Velocity setups.
+* ⚙️ [Configuration Guide](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Configuration) - Complete key breakdown.
+* ⚔️ [Commands & Permissions](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Commands-and-Permissions) - Full command reference.
+* 🌐 [Localization Guide](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/Localization) - Multi-language & placeholders.
+* ❓ [FAQ & Troubleshooting](https://github.com/RaffiDevYT/AltLess-MinecraftPlugin/wiki/FAQ-and-Troubleshooting) - Proxy IP forwarding (`127.0.0.1`) solutions.
 
 ---
 

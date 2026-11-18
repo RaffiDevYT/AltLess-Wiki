@@ -27,13 +27,13 @@ Frequently asked questions, common network pitfalls, and solutions when running 
 
 ### 2. Should I run Altless on Velocity or Paper?
 * **On Velocity (Recommended for Networks):**
-  - Blocks alts and bot flood attacks at the network edge before backend server instances even allocate memory or handle packets.
-  - Applies a network-wide IP limit across all sub-servers (Survival, Lobby, Minigames).
+ - Blocks alts and bot flood attacks at the network edge before backend server instances even allocate memory or handle packets.
+ - Applies a network-wide IP limit across all sub-servers (Survival, Lobby, Minigames).
 * **On Paper (Best for Standalone Servers):**
-  - Perfect for single-server setups without a proxy.
-  - Allows per-world or backend-specific custom limit permissions (`altless.limit.<n>`).
+ - Perfect for single-server setups without a proxy.
+ - Allows per-world or backend-specific custom limit permissions (`altless.limit.<n>`).
 * **Hybrid / Both (with Redis):**
-  - If you run multiple Velocity proxies or want backend Paper servers to share real-time session counts, enable the built-in Redis synchronization.
+ - If you run multiple Velocity proxies or want backend Paper servers to share real-time session counts, enable the built-in Redis synchronization.
 
 ---
 

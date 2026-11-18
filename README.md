@@ -10,7 +10,7 @@
 
 ## 📌 Overview
 
-**Altless** protects your server from alt spam, bot raids, and proxy rotation abuse with **strictly 0ms overhead** on the main server thread. Built natively for **Paper** (1.17–1.21+) and **Velocity** (3.1–3.3+).
+**Altless** protects your server from alt spam, bot raids, and proxy rotation abuse with **strictly 0ms overhead** on the main server thread. Built natively for **Paper** (1.17-1.21+) and **Velocity** (3.1-3.3+).
 
 This repository serves as the official **Documentation, Issue Tracker, and Wiki hub** for Altless.
 

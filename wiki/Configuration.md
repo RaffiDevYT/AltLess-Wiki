@@ -22,9 +22,9 @@ defaultLimit: 1
 # Custom IP or CIDR Subnet Limits (Format: "<ip_or_cidr>: <limit>")
 # Uses list format to prevent Bukkit YAML dot-splitting issues with IP addresses.
 limits:
-  - "127.0.0.1: 5"
-  - "192.168.1.0/24: 3"
-  - "10.0.0.0/8: 10"
+ - "127.0.0.1: 5"
+ - "192.168.1.0/24: 3"
+ - "10.0.0.0/8: 10"
 
 # IPv6 Subnet Aggregation (/64)
 # When enabled, multiple IPv6 addresses under the same /64 subnet share the same quota.
@@ -57,7 +57,7 @@ escalation:
   thresholdViolations: 5
   windowSeconds: 30
   actions:
-    - "ban-ip %ip% [Altless] Automated bot mitigation"
+ - "ban-ip %ip% [Altless] Automated bot mitigation"
   alert: "&8[&4Altless Escalation&8] &cAuto-action triggered for IP &e%ip% &cafter %threshold% repeat violations!"
 
 # Redis Cross-Server Synchronization (Optional: for multi-server networks)
@@ -129,9 +129,9 @@ limit.192.168.1.0/24=3
 
 ### 1. `limits` (CIDR Subnets & Specific IPs)
 You can configure limits for individual IPs, local loops, or entire subnets using CIDR notation:
-* `127.0.0.1: 5` — Grants localhost up to 5 concurrent accounts.
-* `192.168.1.0/24: 3` — Any connection originating between `192.168.1.1` and `192.168.1.254` shares a pool of 3 accounts.
-* `10.0.0.0/8: 10` — Large private subnet pool.
+* `127.0.0.1: 5` - Grants localhost up to 5 concurrent accounts.
+* `192.168.1.0/24: 3` - Any connection originating between `192.168.1.1` and `192.168.1.254` shares a pool of 3 accounts.
+* `10.0.0.0/8: 10` - Large private subnet pool.
 
 ### 2. `aggregateIpv6` (Subnet /64 Aggregation)
 In modern residential IPv6 connections, every consumer router receives a full `/64` subnet block (containing $2^{64}$ addresses). Botnets frequently randomize their trailing host address to dodge simple IP bans. When `aggregateIpv6: true`, Altless automatically strips the trailing host bits and groups all incoming IPv6 requests by their `/64` network prefix.

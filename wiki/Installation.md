@@ -7,8 +7,8 @@ Altless is distributed as two lightweight JAR files tailored for backend servers
 ## 🖥️ Platform Requirements
 
 * **Java Version:** Java 17 or higher (Java 21 supported).
-* **Backend Servers:** Paper, Purpur, Pufferfish, or Folia (1.17 – 1.21.x+).
-* **Proxy Servers:** Velocity 3.1.0 – 3.3.0+ (and modern forks).
+* **Backend Servers:** Paper, Purpur, Pufferfish, or Folia (1.17 - 1.21.x+).
+* **Proxy Servers:** Velocity 3.1.0 - 3.3.0+ (and modern forks).
 
 ---
 

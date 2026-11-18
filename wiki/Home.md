@@ -1,8 +1,8 @@
 # Welcome to the Altless Wiki 🛡️
 
-**Altless** is a high-performance, asynchronous, zero-dependency connection and multi-account limiter designed for modern **Paper** (1.17–1.21+) servers and **Velocity** (3.1–3.3+) proxies.
+**Altless** is a high-performance, asynchronous, zero-dependency connection and multi-account limiter designed for modern **Paper** (1.17-1.21+) servers and **Velocity** (3.1-3.3+) proxies.
 
-Whether you run a small survival server or a massive minigame network, Altless protects your server from alt spam, bot raids, and proxy rotation abuse—with **strictly 0ms overhead** on the main thread.
+Whether you run a small survival server or a massive minigame network, Altless protects your server from alt spam, bot raids, and proxy rotation abuse - with **strictly 0ms overhead** on the main thread.
 
 ---
 
@@ -25,9 +25,9 @@ Most legacy IP limiter plugins (like old IPLimit, AntiAlt, etc.) suffer from ser
 
 ## 📊 Comparison Matrix
 
-| Feature | Legacy Plugins (v1.x) | Altless 2.0 |
+| Feature | Other Plugins | AltLess |
 |---|---|---|
-| **Supported Platforms** | Bukkit/Spigot 1.12 only | **Paper 1.17–1.21+ & Velocity 3.1–3.3+** |
+| **Supported Platforms** | Outdated / Spigot only | **Paper 1.17-1.21+ & Velocity 3.1-3.3+** |
 | **Main Thread Impact** | Heavy (Sync Login) | **0ms (Fully Asynchronous)** |
 | **Thread Safety** | Basic `HashMap` (Race Conditions) | **Lock-Free `ConcurrentHashMap`** |
 | **IPv6 Evasion Defense** | ❌ None | **✅ Automatic `/64` Subnet Aggregation** |
@@ -41,8 +41,8 @@ Most legacy IP limiter plugins (like old IPLimit, AntiAlt, etc.) suffer from ser
 ---
 
 ## 📚 Quick Navigation
-* [📥 Installation Guide](Installation) — Setup on Paper, Purpur, and Velocity.
-* [⚙️ Configuration Guide](Configuration) — Full breakdown of all configuration keys.
-* [⚔️ Commands & Permissions](Commands-and-Permissions) — Command usage and LuckPerms setup.
-* [🌐 Localization](Localization) — Switching languages and custom messages.
-* [❓ FAQ & Troubleshooting](FAQ-and-Troubleshooting) — Common network setups and solutions.
+* [📥 Installation Guide](Installation) - Setup on Paper, Purpur, and Velocity.
+* [⚙️ Configuration Guide](Configuration) - Full breakdown of all configuration keys.
+* [⚔️ Commands & Permissions](Commands-and-Permissions) - Command usage and LuckPerms setup.
+* [🌐 Localization](Localization) - Switching languages and custom messages.
+* [❓ FAQ & Troubleshooting](FAQ-and-Troubleshooting) - Common network setups and solutions.
