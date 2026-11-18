@@ -1,3 +1,7 @@
+<div align="center">
+
+![Altless Banner](https://raw.githubusercontent.com/RaffiDevYT/AltLess/main/release/banner.png)
+
 # Altless 🛡️
 ### High-Performance Asynchronous Connection & Multi-Account Limiter
 
@@ -6,6 +10,8 @@
 ![Java](https://img.shields.io/badge/Java-17+-b07219?style=for-the-badge)
 ![Languages](https://img.shields.io/badge/Languages-English%20%7C%20Indonesian-007ec6?style=for-the-badge)
 [![Wiki](https://img.shields.io/badge/Docs-GitHub%20Wiki-181717?style=for-the-badge&logo=github)](https://github.com/RaffiDevYT/AltLess/wiki)
+
+</div>
 
 ---
 
