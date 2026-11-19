@@ -51,6 +51,40 @@ Most legacy IP limiter plugins run synchronous checks on the main server thread,
 
 ---
 
+## 📸 In-Game Previews
+
+<details>
+<summary>🚨 <b>Real-Time Staff Security Alerts</b> (Click to preview)</summary>
+<br>
+
+> Staff with `altless.notify` receive instantaneous, clean security alerts whenever unauthorized alt accounts attempt concurrent logins.
+
+![Staff Security Alert](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/screenshots/Real-Time%20Staff%20Security%20Alerts.png)
+
+</details>
+
+<details>
+<summary>🛑 <b>Enforced Connection Limit Screen (Kick Modal)</b> (Click to preview)</summary>
+<br>
+
+> Blocked players receive a clean, structured RGB disconnect modal explaining the policy instead of generic connection drops.
+
+![Enforced Connection Limit Screen](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/screenshots/Enforced%20Connection%20Limit%20Screen.png)
+
+</details>
+
+<details>
+<summary>🔍 <b>Alt Intelligence & Audit Trail (`/altless lookup`)</b> (Click to preview)</summary>
+<br>
+
+> Investigate linked player accounts, IP history, and connection timestamps in a clean in-game dossier.
+
+![Alt Intelligence Dossier](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/screenshots/Alt%20Intelligence%20%26%20IP%20History%20Dossier.png)
+
+</details>
+
+---
+
 ## ⚔️ Commands & Permissions
 
 Base command: `/altless` (Aliases: `/alts`, `/iplimit`)

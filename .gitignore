@@ -11,8 +11,12 @@ settings.gradle
 build/
 */build/
 
-# Binary Releases (Distributed on Modrinth)
+# Binary Releases & Raw Assets
 release/*.jar
+release/raw-assets/
+
+# Test Server
+test-server/
 
 # IDE & Editor Files
 .idea/
