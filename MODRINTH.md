@@ -73,6 +73,34 @@ Base command: `/altless` (Aliases: `/alts`, `/iplimit`)
 
 ---
 
+## 📁 File Structure
+
+AltLess generates its files inside:
+
+`plugins/Altless/` (Paper) or `plugins/altless/` (Velocity)
+
+**Paper / Purpur structure:**
+```text
+plugins/Altless/
+├── config.yml           # Main configuration
+├── history.csv          # Audit trail for /altless lookup
+└── messages/
+    ├── messages_en.yml  # English language file
+    └── messages_id.yml  # Indonesian language file
+```
+
+**Velocity Proxy structure:**
+```text
+plugins/altless/
+├── altless.properties         # Main proxy configuration
+├── history.csv                # Proxy-wide audit trail
+└── messages/
+    ├── messages_en.properties # English language file
+    └── messages_id.properties # Indonesian language file
+```
+
+---
+
 ## ⚙️ Quick Configuration
 
 ### Paper (`plugins/Altless/config.yml`)

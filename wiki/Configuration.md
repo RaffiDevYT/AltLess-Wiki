@@ -4,6 +4,34 @@ Altless provides clear, commented configuration files for both Paper (`config.ym
 
 ---
 
+## 📁 File Structure
+
+AltLess generates its files inside:
+
+`plugins/Altless/` (Paper) or `plugins/altless/` (Velocity)
+
+**Paper / Purpur:**
+```text
+plugins/Altless/
+├── config.yml           # Main configuration
+├── history.csv          # Audit trail for /altless lookup
+└── messages/
+    ├── messages_en.yml  # English language file
+    └── messages_id.yml  # Indonesian language file
+```
+
+**Velocity Proxy:**
+```text
+plugins/altless/
+├── altless.properties         # Main proxy configuration
+├── history.csv                # Proxy-wide audit trail
+└── messages/
+    ├── messages_en.properties # English language file
+    └── messages_id.properties # Indonesian language file
+```
+
+---
+
 ## 📄 Paper Configuration (`config.yml`)
 
 ```yaml
