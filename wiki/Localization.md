@@ -1,6 +1,6 @@
 # Localization & Messages 🌐
 
-Altless comes with full out-of-the-box multi-language support. Server administrators can switch the entire plugin's language or customize individual message strings and color formats.
+Altless comes with full out-of-the-box multi-language support. Server administrators can switch the entire plugin's language or customize individual message strings and RGB color formats.
 
 ---
 
@@ -17,9 +17,23 @@ Language files are located in your server's plugin directory:
 
 ---
 
+## 📸 In-Game Message Previews
+
+### 🛑 Modern Kick Screen Card
+Configure custom multi-line disconnect modals with hex color gradients:
+
+![Enforced Connection Limit Screen](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/screenshots/Enforced%20Connection%20Limit%20Screen.png)
+
+### 🚨 Real-Time Staff Alert Card
+Staff receive structured alert cards in chat:
+
+![Real-Time Staff Security Alerts](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/screenshots/Real-Time%20Staff%20Security%20Alerts.png)
+
+---
+
 ## ⚙️ Switching Languages
 
-To switch languages, edit `config.yml` on Paper or `velocity-config.yml` on Velocity:
+To switch languages, edit `config.yml` on Paper or `altless.properties` on Velocity:
 
 ```yaml
 # Set language: 'en' for English, 'id' for Indonesian
@@ -35,7 +49,7 @@ Save the file and apply changes immediately without a restart:
 
 ## 🎨 Color & Formatting Support
 
-Altless supports legacy color codes as well as modern formatting:
+Altless supports legacy color codes as well as modern RGB formatting:
 * Standard Minecraft color codes using `&` (e.g. `&c`, `&a`, `&e`, `&7`).
 * Hex colors (on Paper 1.16+): `&#RRGGBB`.
 * Multi-line kick screens: use `\n` in string values to create clean, readable line breaks on disconnect screens.

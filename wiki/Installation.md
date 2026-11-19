@@ -51,5 +51,17 @@ Altless is distributed as two lightweight JAR files tailored for backend servers
 
 ---
 
+## ✅ Verifying Installation
+
+Once your server has booted, verify that Altless is functioning by running `/altless` in-game or from the server console:
+
+![Altless Command Center](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/screenshots/Intuitive%20Command%20Center.png)
+
+Check real-time network protection status with `/altless status`:
+
+![Live Connection & Protection Status](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/screenshots/Live%20Connection%20%26%20Protection%20Status.png)
+
+---
+
 ## 🔄 Upgrading / Session Recovery
 Altless includes active session recovery. If you reload your server or update Altless while players are connected, Altless automatically re-scans all currently online players and restores their IP trackers seamlessly without dropping connections or resetting quotas.

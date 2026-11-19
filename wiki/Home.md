@@ -1,14 +1,43 @@
-# Welcome to the Altless Wiki 🛡️
+<div align="center">
 
-**Altless** is a high-performance, asynchronous, zero-dependency connection and multi-account limiter designed for modern **Paper** (1.17-1.21+) servers and **Velocity** (3.1-3.3+) proxies.
+![Altless Banner](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/banner.png)
 
-Whether you run a small survival server or a massive minigame network, Altless protects your server from alt spam, bot raids, and proxy rotation abuse - with **strictly 0ms overhead** on the main thread.
+# Altless Documentation 🛡️
+
+### High-Performance Asynchronous Connection & Multi-Account Limiter
+**Designed for modern Paper (1.17-1.21+) servers and Velocity (3.1-3.3+) proxies.**
+
+</div>
+
+---
+
+**Altless** is an ultra-lightweight, zero-dependency connection and alt-account limiter engineered from scratch to protect Minecraft networks from bot raids, IP rotation evasion, and alt spam - with **strictly 0ms overhead** on the main server thread.
+
+---
+
+## 📸 In-Game Feature Showcase
+
+<div align="center">
+
+### 🚨 Real-Time Staff Security Alerts
+*Instantaneous notifications delivered to staff with `altless.notify` whenever an unauthorized alt connection is blocked.*
+
+![Real-Time Staff Security Alerts](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/screenshots/Real-Time%20Staff%20Security%20Alerts.png)
+
+---
+
+### 🛑 Enforced Connection Limit (Kick Screen)
+*Blocked connections receive an informative, branded RGB disconnect card instead of generic timeout errors.*
+
+![Enforced Connection Limit Screen](https://raw.githubusercontent.com/RaffiDevYT/AltLess-Wiki/main/release/screenshots/Enforced%20Connection%20Limit%20Screen.png)
+
+</div>
 
 ---
 
 ## 🚀 Why Altless?
 
-Most legacy IP limiter plugins (like old IPLimit, AntiAlt, etc.) suffer from serious flaws:
+Most legacy IP limiter plugins suffer from serious design flaws:
 * 🛑 **Main Thread Lag:** Running database queries or connection checks during sync login events freezes the main tick loop.
 * 🛑 **Memory Leaks:** Storing raw `Player` objects in static collections prevents players from being garbage collected after logout.
 * 🛑 **IPv6 Evasion:** Botnets rotate random IPv6 host addresses within the same ISP subnet to bypass single-IP limits.
@@ -40,9 +69,9 @@ Most legacy IP limiter plugins (like old IPLimit, AntiAlt, etc.) suffer from ser
 
 ---
 
-## 📚 Quick Navigation
-* [📥 Installation Guide](Installation) - Setup on Paper, Purpur, and Velocity.
-* [⚙️ Configuration Guide](Configuration) - Full breakdown of all configuration keys.
-* [⚔️ Commands & Permissions](Commands-and-Permissions) - Command usage and LuckPerms setup.
-* [🌐 Localization](Localization) - Switching languages and custom messages.
-* [❓ FAQ & Troubleshooting](FAQ-and-Troubleshooting) - Common network setups and solutions.
+## 📚 Documentation Index
+* [📥 Installation Guide](Installation) - Step-by-step setup on Paper, Purpur, Folia, and Velocity.
+* [⚙️ Configuration Guide](Configuration) - Full breakdown of all configuration keys and options.
+* [⚔️ Commands & Permissions](Commands-and-Permissions) - Command syntax, examples, and LuckPerms setup.
+* [🌐 Localization Guide](Localization) - Switching languages, placeholders, and custom messages.
+* [❓ FAQ & Troubleshooting](FAQ-and-Troubleshooting) - Common network issues and proxy solutions.
